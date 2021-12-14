@@ -1,57 +1,7 @@
 {
   "name": "proper-todo",
-  "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "cross-env": "^7.0.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2",
-    "expo": "~43.0.2",
-    "expo-status-bar": "~1.1.0",
-    "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "concurrently -k \"cross-env BROWSER=none npm start\" \"npm:electron\"",
-    "electron": "wait-on tcp:3000 && electron .",
-    "expo-start": "expo start",
-    "expo-android": "expo start --android",
-    "expo-ios": "expo start --ios",
-    "expo-web": "expo start --web",
-    "expo-eject": "expo eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
-    "concurrently": "^6.4.0",
-    "electron": "^16.0.4",
-    "electron-is-dev": "^2.0.0",
-    "wait-on": "^6.0.0",
-    "@babel/core": "^7.12.9"
+    "lerna": "^4.0.0"
   }
 }

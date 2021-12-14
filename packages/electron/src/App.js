@@ -1,4 +1,4 @@
-import TodoList from './components/TodoList'
+import { TodoList } from '@proper-todo/core'
 
 function App() {
 	return (
