@@ -1,0 +1,16 @@
+Здесь main нужно с index на runtime поменять. Ну или нагуглить как эта хуйня должна работать
+Вообще всё должно быть пофикшено, но наверное CRA не обновил зависимость https://github.com/facebook/react/issues/19835
+Вот возможный варик https://github.com/pnpm/pnpm/issues/2957
+
+Ошибка про то что хуки не там вызываем хуйня.
+На самом деле либо нужно делать lerna bootstrap --nohoist
+Либо как то решать вопрос с несколькими инстансами реакт:
+https://github.com/facebook/react/issues/13991
+
+Может два вопроса выше решит нохоист или peerDependencis
+https://medium.com/habilelabs/react-native-react-web-and-expo-together-in-one-monorepo-5b8f9a0fca00
+Ctrl + F "nohoist"
+
+Expo работает. Андроид студия хуйня, юзай телефон
+
+node_modules/react-refresh/package.json

@@ -1,4 +1,4 @@
-import './style.css'
+// import './style.css'
 
 function Todo({ todo: { id, text, completed }, toggle }) {
     const handleChange = () => {

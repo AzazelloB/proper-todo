@@ -1,6 +1,11 @@
 {
   "name": "proper-todo",
   "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "start:electron": "lerna run dev --scope @proper-todo/electron",
+    "start:expo": "npm run start --prefix packages/expo"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
